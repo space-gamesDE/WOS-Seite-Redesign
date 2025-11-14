@@ -6,23 +6,7 @@
     <title>WOS Seite</title>
 </head>
 <body>
-    <style>
-        h1 {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
-        p {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
-        h2 {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
-        h3 {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
-        card {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }  
-    </style>
+    <stylesheet href="styles.css"></stylesheet>
     <img src="https://share.google/images/AxcIAPNAnZYLz0U9N" alt="WOS Logo" width="300" height="200">
     <h1>Willkommen auf der WOS Seite</h1>
     <p>Dies ist ein Redesign der Schüler der WOS für die WOS.</p>
@@ -34,42 +18,36 @@
     <p> </p>
     <p></p>
     <h2>Neues aus dem Hause:</h2>
-    <carousel>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-        <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
+    <form>
+        <label for="NeuesAufDemSpielplatz">UMFRAGE: Was soll neu auf den Spielplatz?</label>
+        <select id="NeuesAufDemSpielplatz" name="NeuesAufDemSpielplatz">
+            <option value="Rutsche">Rutsche 🛝</option>
+            <option value="Klettergerüst">Klettergerüst 🧗🏼‍♀️</option>
+            <option value="BEnthalten">Unser Schuhlof ist gut so wie er ist 😁</option>
+        </select>
+        <input type="submit" value="Absenden">Absenden</Input>
+    </form>
+    <card>
+        <h3>Mensamax wird Parenparty Deutschland</h3>
+        <p>Die Mensamax App wird in Parenparty Deutschland umbenannt. Dies wurde von MensaMax GmbH beschlossen, um die App besser an den deutschen Markt anzupassen. Die App wird weiterhin die gleichen Funktionen bieten, jedoch mit einem neuen Namen und einem frischen Design.</p>
+    </card>
+    <card>
+        <h3>WOS Schaukeln wurden erneuert</h3>
+        <p>Auf dem Schuhlof der WOS wurden neulich die Schaukeln Überarbeitet. Die Große (Bei den Bänken und bei dem "Klättergerüst") würde Entfernt und dei Kleine (Bei der Turnhalle) hat ein eine neue Schaukel Bekommen.</p>
+    </card>
+    <h2>Weiteres:</h2>
+        <card>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2398.877772372541!2d8.898910899999999!3d53.040534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b0d90046d71421%3A0xdd9991a54918e378!2sWilhelm-Olbers-Schule!5e0!3m2!1sde!2sde!4v1763040531323!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
+        </card>
         <card>
             <p>Die Devs:</p>
             <p>Unter Space Games: <a href="https://github.com/space-gamesDE">Github von Space Games</a> </p>
             <p>ThatDev: <a href="https://linktr.ee/thatdev">Linktree von ThatDev</a>
             <p>Bobby: <a href="https://linktr.ee/bobby_dev">Linktree von Bobby</a></p>
             <p>Im Auftrag von Space Games:</p>
-            <p>ThatLight: <a href="https://linktr.ee/thatlight"></a></p>
+            <p>ThatLight: <a href="https://linktr.ee/thatlight" ></a></p>
         </card>
-        </div>
-        <div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-        </button>
-        </div>
-    </carousel>
     <p>No © 2025 Space Games Deutschland (Kein Eingetragenes Unternehmen)</p>
-    <script src="script.js"></script>
 </body>
 </html>
 
