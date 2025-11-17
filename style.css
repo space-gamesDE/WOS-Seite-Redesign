@@ -1,15 +1,17 @@
 * {
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-card {
+/* Verwende .card als Klassenselektor (besser kompatibel mit HTML-Elementen) */
+.card {
     background-color: #FFF;
     border-radius: 15px;
     border-color: black;
-    box-shadow: 0 4px 8px grey);
+  box-shadow: 0 4px 8px grey;
     padding: 20px;
     margin: 20px 0;
-    color: #ffffff;
+  /* Weißer Hintergrund → dunkle Textfarbe verwenden */
+  color: #000000;
 }
 a.button {
   display: inline-block;
